@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,500,700,800&display=swap");
 
-
-
 @import "./reset.css";
+@import "./header.css";
 
 :root{
    --fontFemaly: "Plus Jakarta Sans";
