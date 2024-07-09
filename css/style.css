@@ -5,6 +5,7 @@
 @import "./hero.css";
 @import "./features.css";
 @import "./services.css";
+@import "./service.css";
 
 :root{
    --fontFemaly: "Plus Jakarta Sans";

@@ -1,9 +1,9 @@
-.services {
-    margin-top: 200px;
+.service {
+    margin-top: 140px;
 }
-.services__container {
+.service__container {
 }
-.services__inner {
+.service__inner {
 }
 .header-block {
     margin-bottom: 90px;
@@ -12,23 +12,22 @@
 }
 .header-block__title {
 }
-.services__body {
+.service__body {
     display: flex;
     column-gap: 125px;
 }
-.services__body img{
+.service__body img{
     width: 600px;
     height: 399px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 30px 60px 0 rgba(71,74,87,.25);
 }
-.services__content {
+.service__content {
     display: flex;
     flex-direction: column;
 }
-.services__content-title {
+.service__content-title {
     font-size: 32px;
     color: #000000;
     font-weight: 500;
@@ -36,55 +35,52 @@
     margin-bottom: 40px;
     line-height: 1.2;
 }
-.services__content-title span{
+.service__content-title span{
    color: #4475F2;
 }
-.services__content-text {
+.service__content-text {
     line-height: 187.5%; 
 }
-.services__content-text-1{
+.service__content-text-1{
     max-width: 411px;
     width: 100%;
 }
-.services__content-text-2{
+.service__content-text-2{
     max-width: 373px;
     width: 100%;
 }
-.services__content-text:not(:last-child) {
+.service__content-text:not(:last-child) {
     margin-bottom: 15px;
 }
 
 @media (max-width: 1200px){
-    .services {
+    .service {
         margin-top: 150px;
     }
-    .services__body {
+    .service__body {
         column-gap: 80px;
     }
 }
 @media (max-width: 1000px){
-    .services {
+    .service {
         margin-top: 80px;
     }
     .header-block {
        text-align: center;
        margin-bottom: 50px;
     }
-    .services__body {
+    .service__body {
         flex-direction: column;
         row-gap: 70px;
         align-items: center;
     }
-    .services__body img{
-       order: 1;
-    }
-    .services__content {
+    .service__content {
        align-items: center;
     }
-    .services__content-title {
+    .service__content-title {
        text-align: center;
     }
-    .services__content-text-2{
+    .service__content-text-2{
         max-width: 411px;
     }
 }
