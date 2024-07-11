@@ -8,6 +8,7 @@
 @import "./service.css";
 @import "./reviews.css";
 @import "./location.css";
+@import "./footer.css";
 
 :root{
    --fontFemaly: "Plus Jakarta Sans";
