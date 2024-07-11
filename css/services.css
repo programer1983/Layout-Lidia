@@ -16,17 +16,33 @@
     display: flex;
     column-gap: 125px;
 }
-.services__body img{
+.services__body{
+}
+.services__img{
     width: 600px;
     height: 399px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 30px 60px 0 rgba(71,74,87,.25);
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: transform .9s ease;
+}
+.services__img.active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .services__content {
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    transform: translateX(70px);
+    transition: transform .9s ease;
+}
+.services__content.active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .services__content-title {
     font-size: 32px;

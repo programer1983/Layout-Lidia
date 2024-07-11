@@ -16,17 +16,34 @@
     display: flex;
     column-gap: 125px;
 }
-.service__body img{
+.service__body{
+}
+.service__img{
     width: 600px;
     height: 399px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
+    opacity: 0;
+    transform: translateX(70px);
+    transition: transform .9s ease;
+}
+.service__img.active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .service__content {
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: transform .9s ease;
 }
+.service__content.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .service__content-title {
     font-size: 32px;
     color: #000000;

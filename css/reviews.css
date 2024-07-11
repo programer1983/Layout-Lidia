@@ -55,6 +55,34 @@
     letter-spacing: .20000000298023224px;
     font-weight: 500;
 }
+.reviews__item-1{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform .9s ease;
+}
+.reviews__item-1.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+.reviews__item-2{
+    opacity: 0;
+    transform: translateY(150px);
+    transition: transform .7s ease;
+}
+.reviews__item-2.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+.reviews__item-3{
+    opacity: 0;
+    transform: translateY(230px);
+    transition: transform .5s ease;
+}
+.reviews__item-3.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 @media (max-width: 1200px){
     .reviews {

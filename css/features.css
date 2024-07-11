@@ -1,5 +1,12 @@
 .features {
     margin-top: 170px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform .9s ease;
+}
+.features.active{
+    opacity: 1;
+    transform: translateY(0px);
 }
 .features__inner {
 }

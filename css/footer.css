@@ -24,6 +24,11 @@
 .footer__logo {
     width: 248px;
     height: 93px;
+    transform: rotateY(180deg);
+    transition: transform .9s ease;
+}
+.footer__logo.active{
+    transform: rotateY(0);
 }
 .footer__item-center {
     display: flex;
@@ -39,6 +44,10 @@
 .footer__social img{
     width: 37px;
     height: 30px;
+    transition: transform .3s ease;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .footer__item-right {
     display: flex;
